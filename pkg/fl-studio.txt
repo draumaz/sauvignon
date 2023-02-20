@@ -1,0 +1,5 @@
+#!/bin/sh
+
+VER="21.0.2.3399"
+EXE="flstudio_win64_${VER}.exe"
+URL="https://demodownload.image-line.com/flstudio/${EXE}"
