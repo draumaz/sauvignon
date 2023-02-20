@@ -1,9 +1,5 @@
 #!/bin/sh -e
 
-source <(\
-  echo "`\
-    curl -L https://parcel.draumaz.xyz/sauvignon/${1}.txt`\
-  ")
-
+source <(cat pkg/${1}.txt)
 curl -fLO "${URL}"
 wine "${EXE}"
