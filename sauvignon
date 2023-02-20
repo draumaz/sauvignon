@@ -1,5 +1,5 @@
 #!/bin/sh -e
 
-source <(cat pkg/${1}.txt)
+source <(cat pkg/${1}.meta)
 curl -fLO "${URL}"
 wine "${EXE}"
